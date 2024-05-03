@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title> ANT1 COMEDY </title>
+    <style>
+      body{margin:0;};
+    </style>
+    <script id="_waud7t">var _wau = _wau || []; _wau.push(["dynamic", "xv4hm44bwm", "d7t", "c4302bffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
+
+            <script src='https://content.jwplatform.com/libraries/aG3IMhIy.js'></script>
+
+  <style>
+
+    #player { width:100% !important; height:100% !important; } 
+    .jw-rightclick { display: none !important; }
+    .jw-logo-button { display: none !important; }
+       </style>
+
+
+
+      </head>
+  <body>
+
+
+     <div id="player">Loading the player...</div>
+    <script>
+        // Setup the player
+        const player = jwplayer('player').setup({
+            file: "https://d2e65zbw2lm5c4.cloudfront.net/comedy_aws/abr/playlist.m3u8",
+            width: 560,
+      height: 315,
+  mute: true,
+  autostart: true,
+        });
+
+
+      </script>
+
+
+
+  <script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    document.onkeydown = function (e) {
+
+        // disable F12 key
+        if(e.keyCode == 123) {
+            return false;
+        }
+
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+            return false;
+        }
+
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+
+</script>
+
+  </body>
+</html>
